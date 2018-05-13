@@ -1,0 +1,33 @@
+# newman-reporter-statsd
+A [newman](https://github.com/postmanlabs/newman) reporter for StatsD.  See the [newman documentation](https://www.getpostman.com/docs/postman/collection_runs/command_line_integration_with_newman) for more info.
+
+## Getting Started
+
+1. Install `newman`
+2. Install `newman-reporter-statsd`
+
+### Prerequisites
+
+1. StatsD
+2. [npm](https://www.npmjs.com/)
+3. `newman`
+
+```
+npm install -g newman
+```
+
+### Installing
+
+Install with npm
+
+```
+npm install -g newman-reporter-statsd
+```
+
+The `-r statsd` is the flag to enable StatsD reporting.
+
+```
+newman run "https://www.getpostman.com/collections/<your-collection-url>" -x --delay-request 10 -r statsd --statsd-udp-port <your-statsd-udp-port-number>
+```
+
+The output will be sent to statsd via UDP.

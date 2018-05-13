@@ -1,0 +1,32 @@
+{
+  "name": "newman-reporter-statsd",
+  "version": "1.0.1",
+  "description": "A newman reporter for StatsD.",
+  "main": "index.js",
+  "dependencies": {
+    "simple-udp-stream": "^1.2.3"
+  },
+  "devDependencies": {
+    "jest-cli": "^21.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "postman",
+    "newman",
+    "statsd",
+    "reporter",
+    "api",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsorry/newman-reporter-statsd.git"
+  },
+  "author": "Aleksandar Glisovic <gsorry@gmail.com>",
+  "license": "ISC"
+}
