@@ -27,7 +27,7 @@ npm install -g newman-reporter-statsd
 The `-r statsd` is the flag to enable StatsD reporting.
 
 ```
-newman run "https://www.getpostman.com/collections/<your-collection-url>" -x --delay-request 10 -r statsd --statsd-udp-port <your-statsd-udp-port-number>
+newman run '<collection-file-or-url>' -r statsd --reporter-statsd-destination '<destionation-address>' --reporter-statsd-port <port-number>
 ```
 
 The output will be sent to statsd via UDP.
