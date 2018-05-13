@@ -4,7 +4,8 @@
   "description": "A newman reporter for StatsD.",
   "main": "lib/index.js",
   "dependencies": {
-    "simple-udp-stream": "^1.2.3"
+    "simple-udp-stream": "^1.2.3",
+    "to-snake-case": "^1.0.0"
   },
   "devDependencies": {
     "jest-cli": "^21.1.0"
