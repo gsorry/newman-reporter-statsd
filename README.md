@@ -1,5 +1,5 @@
 # newman-reporter-statsd
-A [newman](https://github.com/postmanlabs/newman) reporter for StatsD.  See the [newman documentation](https://www.getpostman.com/docs/postman/collection_runs/command_line_integration_with_newman) for more info.
+A [newman](https://github.com/postmanlabs/newman) reporter for StatsD.  See the [newman documentation](https://www.getpostman.com/docs/postman/collection_runs/command_line_integration_with_newman) for more info. Inspired by [newman-reporter-teamcity](https://github.com/leafle/newman-reporter-teamcity).
 
 ## Getting Started
 
