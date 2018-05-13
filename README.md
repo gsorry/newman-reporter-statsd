@@ -27,7 +27,7 @@ npm install -g newman-reporter-statsd
 The `-r statsd` is the flag to enable StatsD reporting.
 
 ```
-newman run '<collection-file-or-url>' -r statsd --reporter-statsd-destination '<destionation-address>' --reporter-statsd-port <port-number>
+newman run '<collection-file-or-url>' -r statsd --reporter-statsd-destination <destionation-ip-address> --reporter-statsd-port <port-number>
 ```
 
 The output will be sent to statsd via UDP.
