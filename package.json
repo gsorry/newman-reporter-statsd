@@ -2,7 +2,7 @@
   "name": "newman-reporter-statsd",
   "version": "1.0.1",
   "description": "A newman reporter for StatsD.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "dependencies": {
     "simple-udp-stream": "^1.2.3"
   },
