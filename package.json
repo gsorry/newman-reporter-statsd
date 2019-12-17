@@ -8,7 +8,7 @@
     "to-snake-case": "^1.0.0"
   },
   "devDependencies": {
-    "jest-cli": "^24.0.0"
+    "jest-cli": "^24.9.0"
   },
   "scripts": {
     "test": "jest"
